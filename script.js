@@ -11,7 +11,7 @@ function compute()
     }
     else
     {
-        document.getElementById("result").innerHTML="Amount has to be at least 1 or more!<br\>";
+        document.getElementById("result").innerHTML="<mark>Amount has to be at least 1 or more!<\/mark><br\>";
         document.getElementById("principal").focus();
     }
 
